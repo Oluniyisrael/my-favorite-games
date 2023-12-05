@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="mainBody">
       <div className="topHeader">
-        <h1 className="header">MARVELO</h1>
+        <h1 className="header">Israel's games Catalogue</h1>
         <input placeholder="Search a Marvel Character" className="topInput" />
       </div>
       <div className="cardBody">
@@ -16,10 +16,6 @@ function App() {
               <h2>{data.alias}</h2>
               <p className="description">
                 {data?.abilities[0]}
-                <br />
-                {data?.abilities[1]}
-                <br />
-                {data?.abilities[2]}
               </p>
               <div className="avatarInfo">
                 <div className="price">
@@ -28,7 +24,7 @@ function App() {
                 </div>
                 <div className="duration">
                   <ins>◷</ins>
-                  <p>Home: {data.homeworld}</p>
+                  <p>Type: {data.homeworld}</p>
                 </div>
               </div>
               <hr />
