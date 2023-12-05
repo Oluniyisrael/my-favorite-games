@@ -18,7 +18,7 @@ function App() {
       <div className="topHeader">
         <h1 className="header">Israel's games Catalogue</h1>
         <input
-          placeholder="Search a Marvel Character"
+          placeholder="Search a Game!"
           className="topInput"
           value={searchTerm}
           onChange={handleSearch}
