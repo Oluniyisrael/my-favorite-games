@@ -59,6 +59,9 @@
   width: 90%;
   padding: 1rem;
 }
+#root{
+  width: 100%;
+}
 .card .main .avatarImage  {
   border-radius: 0.5rem;
   width: auto;
