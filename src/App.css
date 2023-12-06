@@ -6,7 +6,9 @@
   align-items: center;
   background-color: red;
 }
-
+body{
+  background: red;
+}
 .topHeader {
   display: flex;
   flex-direction: column;
@@ -61,6 +63,7 @@
 }
 #root{
   width: 100%;
+  min-height: 100vh;
 }
 .card .main .avatarImage  {
   border-radius: 0.5rem;
